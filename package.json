@@ -4,6 +4,7 @@
   "description": "Opensource math website",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
@@ -12,11 +13,11 @@
     "dev": "nodemon server.js"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "dotenv": "^16.1.0"
+    "dotenv": "^16.1.0",
+    "nodemon": "^2.0.20"
   },
   "engines": {
-    "node": ">=22.x"
+    "node": ">=20.x"
   },
   "type": "module"
 }
